@@ -16,6 +16,7 @@ wget -q -O - $URL4 | dos2unix >> $TEMP
 wget -q -O - $URL5 | dos2unix >> $TEMP
 wget -q -O - $URL6 | dos2unix >> $TEMP
 wget -q -O - $URL7 | dos2unix >> $TEMP
+wget -q -O - $URL8 | dos2unix >> $TEMP
 
 sed -e '/^#/d' \
     -e 's/#.*//' \
